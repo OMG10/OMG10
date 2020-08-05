@@ -32,7 +32,7 @@ jobs:
       env:
         GIT_NAME: OMG10
         GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
-        REPO: github.com/OMG10/OMG10
+        REPO: github.com/OMG10/OMG10.github.io
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         cd ./public && git init && git add .
