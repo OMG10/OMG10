@@ -3,7 +3,9 @@ zh-CN:
     home: 首页
     archives: 归档
     categories: 分类
-    tags: 标签
+    all: 总览
+    tags: 标签页
+    timeline: 时间线
     about: 关于
     links: 友情链接
     search: 搜索

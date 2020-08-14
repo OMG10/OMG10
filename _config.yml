@@ -139,7 +139,7 @@ theme_config:
       #bodyEnd: source/_data/body-end.njk
       #variable: source/_data/variables.styl
       #mixin: source/_data/mixins.styl
-      #style: source/_data/styles.styl
+      style: source/_data/styles.styl
 
 
     # ---------------------------------------------------------------
@@ -207,8 +207,8 @@ theme_config:
     # Schemes
     #scheme: Muse
     #scheme: Mist
-    scheme: Pisces
-    #scheme: Gemini
+    #scheme: Pisces
+    scheme: Gemini
 
     # Dark Mode
     darkmode: false
@@ -232,6 +232,10 @@ theme_config:
       #schedule: /schedule/ || fa fa-calendar
       #sitemap: /sitemap.xml || fa fa-sitemap
       #commonweal: /404/ || fa fa-heartbeat
+      all: 
+        default: /all/ || fas fa-th
+        tags: tags/ || fas fa-tags
+        timeline: timeline/ || fas fa-archive
 
     # Enable / Disable menu icons / item badges.
     menu_settings:
@@ -269,22 +273,22 @@ theme_config:
     # Sidebar Avatar
     avatar:
       # Replace the default image and set the url here.
-      url: #/images/avatar.gif
+      url: /images/avatar.jpg
       # If true, the avatar will be dispalyed in circle.
-      rounded: false
+      rounded: true
       # If true, the avatar will be rotated with the cursor.
       rotated: false
 
     # Posts / Categories / Tags in sidebar.
-    site_state: true
+    site_state: false
 
     # Social Links
     # Usage: `Key: permalink || icon`
     # Key is the link label showing to end users.
     # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
     social:
-      #GitHub: https://github.com/yourname || fab fa-github
-      #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+      GitHub: https://github.com/OMG10 || fab fa-github
+      E-Mail: mailto:ruchan1225@gmail.com || fa fa-envelope
       #Weibo: https://weibo.com/yourname || fab fa-weibo
       #Google: https://plus.google.com/yourname || fab fa-google
       #Twitter: https://twitter.com/yourname || fab fa-twitter
